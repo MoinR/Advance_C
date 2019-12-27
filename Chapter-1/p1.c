@@ -23,6 +23,8 @@ void main(){
 
         printf("Enter state population : ");
         scanf("%f",&s[i].population);
+        
+        fflush(stdin); /*to clear the buffer */ 
 
     }
     printf("\n|------------ State Details --------------|");
